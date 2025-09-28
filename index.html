@@ -87,7 +87,7 @@
 
 <!-- <html lang="id" data-bs-theme="auto"> ['auto', 'dark', 'light'] -->
 
-<body data-key="7d632640b2ce702536d112f5c009550685317a931cc6db7a63" data-url="https://api.ulems.my.id/" data-audio="./assets/music/WhatsApp Audio 2025-09-26 at 00.20.43_ada5041d.mp3" data-confetti="true" data-time="2025-10-17 10:00:00">
+<body data-audio="./assets/music/WhatsApp Audio 2025-09-26 at 00.20.43_ada5041d.mp3" data-confetti="true" data-time="2025-10-17 10:00:00">
 
     <!-- Root Invitation -->
     <div class="row m-0 p-0 opacity-0" id="root">
@@ -534,7 +534,8 @@
                 </section> -->
 
                 <!-- Comment -->
-                 <section class="bg-light-dark my-0 pb-0 pt-3" id="comment">
+                  <section class="bg-light-dark my-0 pb-0 pt-3" id="comment"> 
+                 <!-- <section class="bg-light-dark my-0 pb-0 pt-3" style="display: none;" id="comment"> -->
                     <div class="container">
                         <div class="border rounded-5 shadow p-3 mb-2">
                             <h2 class="font-esthetic text-center mt-2 mb-4" style="font-size: 2.25rem;">Ucapan &amp; Doa</h2>
@@ -570,7 +571,7 @@
                                 </div>
                             </div> 
 
-                            <<div class="d-none mb-3" id="gif-form-default"></div>
+                            <div class="d-none mb-3" id="gif-form-default"></div>
 
                             <div class="d-grid">
                                 <button class="btn btn-primary btn-sm rounded-4 shadow m-1" onclick="undangan.comment.send(this)" data-offline-disabled="false">
@@ -579,10 +580,8 @@
                             </div>
                         </div> 
 
-                        <!-- Comments -->
-                        <!-- <div class="py-3" id="comments" data-loading="false"></div> -->
+                        <div class="py-3" id="comments" data-loading="false"></div>
 
-                        <!-- Pagination -->
                         <nav class="d-flex d-none justify-content-center mt-1 mb-0" id="pagination"></nav>
                     </div>
                 </section>
